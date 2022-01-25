@@ -17,8 +17,8 @@
         pgquarrel = pkgs.callPackage ./package.nix { src = pgquarrel-src; };
       in {
         overlay = final: prev: { inherit pgquarrel; };
-        packages."${system}".pgquarrel = pgquarrel;
-        defaultPackage."${system}" = pgquarrel;
+        packages.pgquarrel = pgquarrel;
+        defaultPackage = pgquarrel;
         devShell = pkgs.mkShell { buildInputs = [ pgquarrel ]; };
       });
 }
