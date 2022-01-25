@@ -1,0 +1,59 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1642700792,
+        "narHash": "sha256-XqHrk7hFb+zBvRg6Ghl+AZDq03ov6OshJLiSWOoX5es=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "846b2ae0fc4cc943637d3d1def4454213e203cba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1643125492,
+        "narHash": "sha256-SWefdvFTtUGyXsXEO/HiXYmX6YAa0wltzLb4vrBjYHY=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "1106e43829ee8ae5f9233a36022b24c6707ca736",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pgquarrel-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1618771652,
+        "narHash": "sha256-wY/FIncK5kDoWtS1FpZA28I/LYO8XaenZ0rC390RGeY=",
+        "owner": "eulerto",
+        "repo": "pgquarrel",
+        "rev": "d4bfeb6e074292d2168a268a4287b0da117d8bba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "eulerto",
+        "repo": "pgquarrel",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "pgquarrel-src": "pgquarrel-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
